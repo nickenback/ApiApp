@@ -74,9 +74,7 @@ class WebViewActivity : AppCompatActivity() {
 
     companion object {
         private const val KEY_FAVS = "key_FAVS"
-
-
-        //        fun start(activity: Activity, url: String) {
+        
         fun start(activity: Activity, shop: FavoriteShop) {
 
             activity.startActivity(
